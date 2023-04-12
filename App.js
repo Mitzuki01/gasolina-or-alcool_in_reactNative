@@ -4,7 +4,6 @@ import { StyleSheet, Text, View , TextInput, TouchableOpacity,keyboardType, Aler
 
 export default function App() {
 
-  const [style,setStyle] = useState(0)
   const [result , setResult] = useState(0)
   const [value_one,setValue_one] = useState(0);
   const [value_two,setValue_two] = useState(0);
